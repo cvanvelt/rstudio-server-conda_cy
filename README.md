@@ -19,7 +19,8 @@ The conda environment gets mounted into the container - like that there's no nee
 `install.packages` can be used without issues. The container-based approach has the following benefits: 
 
  * Authentication works ([#3](https://github.com/grst/rstudio-server-conda/issues/3))
- * Several separate instances of Rstudio server can run in parallel, even without the *Pro* version. 
+ * Several separate instances of Rstudio server can run in parallel, even without the *Pro* version.
+ * R version can easily be switched by mounting different conda environment.
 
 ### Prerequisites
 
